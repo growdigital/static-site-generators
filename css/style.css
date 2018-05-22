@@ -43,7 +43,7 @@ body {
 
 .remark-slide-content li,
 .remark-slide-content p {
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 /* Typography
@@ -124,8 +124,9 @@ a:active {
   background-color: var(--gray_dark);
 }
 
+/* Remove box shadow, because full screen mode gives a black background */
 .remark-slide-scaler {
-  box-shadow: 0 0 30px var(--gray_mid);
+  box-shadow: 0 0 0 transparent;
 }
 
 .remark-slide-content {
